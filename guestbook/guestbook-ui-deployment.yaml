@@ -12,7 +12,6 @@ spec:
     metadata:
       labels:
         app: guestbook-ui
-        costcenter: "4711"
     spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
